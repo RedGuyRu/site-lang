@@ -1,0 +1,103 @@
+{
+  "components": {
+    "about": {
+      "helloWorld": "Привет, мир!",
+      "story": "Меня зовут {name}, уже несколько лет я интересуюсь и развиваюсь в IT сфере.{br} Сейчас я в основном работаю на {java} и {javascript}.{br} Чуть ниже вы можете найти список некоторых моих разработок, а если тыкните {hub}, то сможете и попробовать их сами.",
+      "projects": "Проекты",
+      "engageProjects": "Участвую в разработке",
+      "myLibs": "Мои библиотеки",
+      "name": "Название",
+      "type": "Тип",
+      "description": "Описание",
+      "tech": "Технологии",
+      "position": "Должность",
+      "workDates": "Даты работы",
+      "lang": "Язык",
+      "p-desc": {
+        "rdnevnik": "ТГ и ВК интерфейс для school.mos.ru",
+        "webinfo": "HTTP API для вашего сервера Minecraft",
+        "votty": "Бот голосований для вашего discord сервера"
+      },
+      "today": "сегодня",
+      "j-position": {
+        "programmer": "Программист",
+        "flame": "Программист, соавтор",
+        "hil": "Управляющий, технический администратор"
+      },
+      "l-desc": {
+        "kuma": "Враппер для работы с uptimekuma",
+        "rgcache": "Библиотека для кеширования",
+        "hilsuapi": "Враппер позволяющий работать с большинством API методов hil.su",
+        "yclogs": "Аппендер для log4js позволяющий записывать логи в yandex logging",
+        "node-redguy-api": "Враппер для работы с API redguy.ru",
+        "java-redguy-api": "Враппер для работы с API redguy.ru",
+        "animatext": "Тестовая библиотека для создания и проигрывания ascii анимаций"
+      }
+    },
+    "appcard": {
+      "go": "Перейти"
+    },
+    "nav": {
+      "main": "Главная",
+      "login": "Войти",
+      "logout": "Выйти"
+    },
+    "project": {
+      "active": "Активен",
+      "title": "Проекты -> {name}"
+    },
+    "stats": {
+      "total": "Общее время разработки с 12 апреля 2021"
+    },
+    "tech": {
+      "useAndLearn": "Использую и изучаю"
+    },
+    "tools": {
+      "loveAndUse": "Люблю и использую"
+    }
+  },
+  "general": {
+    "ilya": "Илья"
+  },
+  "page": {
+    "project": {
+      "rdnevnik": {
+        "desc": "Телеграм и ВКонтакте интерфейс для доступа к электронному дневнику школьника {link}.{br} Использует технологию обработки естественного языка для понимания любой формулировки пользователя.",
+        "api": "API сервер",
+        "tg": "Телеграм бот",
+        "tg-open": "Бот в Телеграм",
+        "vk": "Вконтакте бот",
+        "vk-open": "Бот во ВКонтакте",
+        "api-lib": "API библиотека",
+        "nlp": "NLP модель"
+      },
+      "votty": {
+        "desc": "Специализированный бот для проведения голосований на вашем Discord сервере!",
+        "invite": "Пригласить"
+      },
+      "webinfo": {
+        "desc": "HTTP API интерфейс для вашего Minecraft сервера Spigot и Sponge.",
+        "swagger": "Swagger документация",
+        "link": "ссылка (тык)"
+      }
+    },
+    "quotes": {
+      "add": {
+        "addQuote": "Добавить цитату: {quote_author}"
+      }
+    },
+    "dev": {
+      "requestsPerMouth": "Запросов за месяц: {lmr}",
+      "requestsPerDay": "Запросов за день: {ldr}",
+      "issuedTokens": "Выпущенные токены:"
+    },
+    "status": {
+      "cpu": "ЦП: {cpu}% из {cpus}",
+      "memory": "ОЗУ: {toFixed}ГБ из {toFixed_2}Гб ({toFixed_3}%)",
+      "swap": "SWAP: {toFixed}ГБ из {toFixed_2}Гб ({toFixed_3}%)",
+      "disk": "Диск: {toFixed}ГБ из {toFixed_2}Гб ({toFixed_3}%)",
+      "diskStats": "Чтение: {toFixed}ГБ Запись: {toFixed_2}ГБ",
+      "networkStats": "Получение: {toFixed}ГБ Отправка: {toFixed_2}ГБ"
+    }
+  }
+}

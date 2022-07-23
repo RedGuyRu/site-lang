@@ -1,0 +1,10 @@
+{
+  "components": {
+    "about": {
+      "helloWorld": "Hello, World!"
+    },
+    "stats": {
+      "total": "Total time coded since Apr 12 2021"
+    }
+  }
+}
