@@ -1,10 +1,58 @@
 {
-  "components": {
-    "about": {
-      "helloWorld": "Hello, World!"
+    "components": {
+        "about": {
+            "helloWorld": "Hello, World!",
+            "projects": "Projects",
+            "myLibs": "My libraries",
+            "name": "Name",
+            "type": "Type",
+            "description": "Description",
+            "position": "Position",
+            "lang": "Language",
+            "p-desc": {
+                "rdnevnik": "TG and VK interface for school.mos.ru",
+                "webinfo": "HTTP API for your Minecraft server",
+                "votty": "Voting bot for your discord server"
+            },
+            "today": "today",
+            "j-position": {
+                "programmer": "Programmer",
+                "flame": "Programmer, co-author",
+                "hil": "Manager, Tech. admin"
+            },
+            "engageProjects": "Participating in the development",
+            "tech": "Technologies",
+            "workDates": "Dates of work",
+            "l-desc": {
+                "kuma": "Wrapper for interacting with uptimekuma",
+                "rgcache": "Caching library",
+                "hilsuapi": "A wrapper that allows you to use most API methods from hil.su",
+                "yclogs": "An appender for log4js that allows you to record logs in yandex logging",
+                "animatext": "Test library for creating and playing ascii animations",
+                "node-redguy-api": "Wrapper for interacting with the API redguy.ru",
+                "java-redguy-api": "Wrapper for interacting with the API redguy.ru"
+            },
+            "story": "My name is {name}, I have been interested and growing in the IT sphere for several years. {br} Now I mainly work on {java} and {javascript}. {br} Just below you can find a list of some of my developments, and if you click {hub}, you can try it yourself."
+        },
+        "stats": {
+            "total": "Total time coded since Apr 12 2021"
+        },
+        "appcard": {
+            "go": "Go"
+        },
+        "nav": {
+            "main": "Home",
+            "login": "Login",
+            "logout": "Logout"
+        },
+        "project": {
+            "active": "Active",
+            "title": "Projects -> {name}"
+        }
     },
-    "stats": {
-      "total": "Total time coded since Apr 12 2021"
+    "page": {
+        "status": {
+            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2)Gb"
+        }
     }
-  }
 }
