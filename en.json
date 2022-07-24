@@ -48,11 +48,47 @@
         "project": {
             "active": "Active",
             "title": "Projects -> {name}"
+        },
+        "tools": {
+            "loveAndUse": "I love and use"
+        },
+        "tech": {
+            "useAndLearn": "Using and learning"
         }
     },
     "page": {
         "status": {
             "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2)Gb"
+        },
+        "project": {
+            "rdnevnik": {
+                "api": "API server",
+                "tg": "Telegram bot",
+                "tg-open": "Bot in Telegram",
+                "vk": "Vkontakte bot",
+                "vk-open": "Bot in VKontakte",
+                "api-lib": "API library",
+                "nlp": "NLP model"
+            },
+            "votty": {
+                "invite": "Invite"
+            },
+            "webinfo": {
+                "swagger": "Swagger documentation",
+                "link": "link (click)"
+            }
+        },
+        "quotes": {
+            "add": {
+                "addQuote": "Add quote: {quote_author}"
+            }
+        },
+        "dev": {
+            "requestsPerMouth": "Requests per month: {lmr}",
+            "requestsPerDay": "Requests per day: {ldr}"
         }
+    },
+    "general": {
+        "ilya": "Ilya"
     }
 }
