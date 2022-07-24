@@ -60,7 +60,7 @@
         "status": {
             "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2)Gb"
         },
-        "project": {
+        "projects": {
             "rdnevnik": {
                 "api": "API server",
                 "tg": "Telegram bot",
