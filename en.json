@@ -65,7 +65,7 @@
                 "api": "API server",
                 "tg": "Telegram bot",
                 "tg-open": "Bot in Telegram",
-                "vk": "Vkontakte bot",
+                "vk": "VKontakte bot",
                 "vk-open": "Bot in VKontakte",
                 "api-lib": "API library",
                 "nlp": "NLP model"
