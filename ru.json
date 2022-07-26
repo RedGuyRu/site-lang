@@ -101,6 +101,10 @@
             "disk": "Диск: {toFixed}ГБ из {toFixed_2}Гб ({toFixed_3}%)",
             "diskStats": "Чтение: {toFixed}ГБ Запись: {toFixed_2}ГБ",
             "networkStats": "Получение: {toFixed}ГБ Отправка: {toFixed_2}ГБ"
+        },
+        "login": {
+            "title": "Авторизация на RedGuy.ru",
+            "error": "Логин или пароль не верны"
         }
     }
 }
