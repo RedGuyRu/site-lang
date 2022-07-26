@@ -58,7 +58,12 @@
     },
     "page": {
         "status": {
-            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2)Gb"
+            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2)Gb",
+            "cpu": "CPU: {cpu}% of {cpus}",
+            "memory": "RAM: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
+            "disk": "Disk: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
+            "swap": "SWAP: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
+            "diskStats": "Read: {toFixed}GB Write: {toFixed_2}GB"
         },
         "projects": {
             "rdnevnik": {
@@ -68,14 +73,20 @@
                 "vk": "VKontakte bot",
                 "vk-open": "Bot in VKontakte",
                 "api-lib": "API library",
-                "nlp": "NLP model"
+                "nlp": "NLP model",
+                "desc": "Telegram and VKontakte interface for accessing a student's electronic diary {link}.{br} Uses natural language processing technology to understand any user's wording.",
+                "slogan": "Let's make studying easier on our own."
             },
             "votty": {
-                "invite": "Invite"
+                "invite": "Invite",
+                "desc": "A specialized bot for voting on your Discord server!",
+                "slogan": "Let's make voting easier."
             },
             "webinfo": {
                 "swagger": "Swagger documentation",
-                "link": "link (click)"
+                "link": "link (click)",
+                "desc": "HTTP API-interface for your Minecraft Spigot or Sponge server.",
+                "slogan": "Everything can be accessed via a browser."
             }
         },
         "quotes": {
@@ -85,7 +96,8 @@
         },
         "dev": {
             "requestsPerMouth": "Requests per month: {lmr}",
-            "requestsPerDay": "Requests per day: {ldr}"
+            "requestsPerDay": "Requests per day: {ldr}",
+            "issuedTokens": "Issued tokens:"
         }
     },
     "general": {

@@ -1,1 +1,7 @@
-{}
+{
+    "components": {
+        "about": {
+            "helloWorld": "Привіт, світе!"
+        }
+    }
+}
