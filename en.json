@@ -98,6 +98,12 @@
             "requestsPerMouth": "Requests per month: {lmr}",
             "requestsPerDay": "Requests per day: {ldr}",
             "issuedTokens": "Issued tokens:"
+        },
+        "verify": {
+            "wait": "Please, wait",
+            "error": "Something went wrong",
+            "ok": "Done! You can go to the",
+            "main": "main page"
         }
     },
     "general": {
