@@ -103,7 +103,30 @@
             "wait": "Please, wait",
             "error": "Something went wrong",
             "ok": "Done! You can go to the",
-            "main": "main page"
+            "main": "main page",
+            "emailNotConfirmed": "Your email is not confirmed"
+        },
+        "login": {
+            "title": "Log in at RedGuy.ru",
+            "error": "Login or password is incorrect",
+            "emailNotConfirmed": "Your email is not confirmed"
+        },
+        "register": {
+            "ok": "We have sent you an email with a link to confirm your account. Please, check your email.",
+            "register": "Register",
+            "login": "Login",
+            "email": "Email",
+            "password": "Password",
+            "passwordAgain": "Repeat password",
+            "haveAccount": "Already have an account?",
+            "title": "Register at RedGuy.ru",
+            "loginError": "Login must be at least 3 characters long",
+            "passwordError": "Password must be at least 8 characters long and contain at least one number and one letter of both cases",
+            "passwordAgainError": "Passwords do not match",
+            "emailError": "Email is not valid",
+            "loginExists": "Login already exists",
+            "emailExists": "Email already exists",
+            "error": "Something went wrong"
         }
     },
     "general": {
