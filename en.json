@@ -127,6 +127,19 @@
             "loginExists": "Login already exists",
             "emailExists": "Email already exists",
             "error": "Something went wrong"
+        },
+        "oauth": {
+            "authorize": {
+                "allow": "Allow",
+                "cancel": "Cancel",
+                "app": "App {app}",
+                "requestsAccess": "requests access to your account",
+                "willAllow": "It will allow app to:",
+                "access": {
+                    "nickname": "Access to your nickname and id",
+                    "email": "Access to your email"
+                }
+            }
         }
     },
     "general": {
