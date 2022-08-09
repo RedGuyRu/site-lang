@@ -109,7 +109,8 @@
         "login": {
             "title": "Log in at RedGuy.ru",
             "error": "Login or password is incorrect",
-            "emailNotConfirmed": "Your email is not confirmed"
+            "emailNotConfirmed": "Your email is not confirmed",
+            "viaVK": "Login via VK"
         },
         "register": {
             "ok": "We have sent you an email with a link to confirm your account. Please, check your email.",

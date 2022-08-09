@@ -105,7 +105,8 @@
         "login": {
             "title": "Авторизация на RedGuy.ru",
             "error": "Логин или пароль не верны",
-            "emailNotConfirmed": "Ваш email не подтвержден"
+            "emailNotConfirmed": "Ваш email не подтвержден",
+            "viaVK": "Войти через ВК"
         },
         "verify": {
             "wait": "Пожалуйста, подождите",
