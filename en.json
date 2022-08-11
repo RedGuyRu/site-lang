@@ -141,6 +141,19 @@
                     "email": "Access to your email"
                 }
             }
+        },
+        "settings": {
+            "changePassword": "Password change",
+            "currentPassword": "Current password",
+            "newPassword": "New password",
+            "newPasswordAgain": "Retype new password",
+            "changePassword2": "Change password",
+            "cancel": "Cancel",
+            "safety": "Safety",
+            "notStrongEnough": "Password is not strong enough",
+            "passwordsNotEquals": "Passwords do not equals",
+            "incorrectPassword": "Incorrect password",
+            "error": "Something went wrong"
         }
     },
     "general": {

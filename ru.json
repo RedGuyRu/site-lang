@@ -143,6 +143,19 @@
                     "email": "Получить доступ к вашему email адресу"
                 }
             }
+        },
+        "settings": {
+            "changePassword": "Смена пароля",
+            "currentPassword": "Текущий пароль",
+            "newPassword": "Новый пароль",
+            "newPasswordAgain": "Повтор пароля",
+            "changePassword2": "Сменить пароль",
+            "cancel": "Отмена",
+            "safety": "Безопасность",
+            "notStrongEnough": "Новый пароль недостаточно безопасен",
+            "passwordsNotEquals": "Пароли не совпадают",
+            "incorrectPassword": "Неверный пароль",
+            "error": "Ошибка"
         }
     }
 }
