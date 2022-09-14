@@ -86,7 +86,8 @@
         },
         "quotes": {
             "add": {
-                "addQuote": "Добавить цитату: {quote_author}"
+                "addQuote": "Добавить цитату: {quote_source}",
+                "addSource": "Добавить источник: {quote_author}"
             }
         },
         "dev": {
@@ -156,6 +157,13 @@
             "passwordsNotEquals": "Пароли не совпадают",
             "incorrectPassword": "Неверный пароль",
             "error": "Ошибка"
+        },
+        "logs": {
+            "service": "Источник",
+            "time": "Время",
+            "level": "Уровень",
+            "message": "Сообщение",
+            "payload": "Дополнительные данные"
         }
     }
 }
