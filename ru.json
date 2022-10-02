@@ -87,7 +87,9 @@
         "quotes": {
             "add": {
                 "addQuote": "Добавить цитату: {quote_source}",
-                "addSource": "Добавить источник: {quote_author}"
+                "quoteSearch": "Поиск цитат",
+                "addSource": "Добавить источник: {quote_author}",
+                "addAuthor": "Добавить автора"
             }
         },
         "dev": {
