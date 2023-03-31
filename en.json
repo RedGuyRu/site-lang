@@ -24,6 +24,7 @@
             "tech": "Technologies",
             "workDates": "Dates of work",
             "l-desc": {
+                "jrweb": "Java web server without dependencies",
                 "kuma": "Wrapper for interacting with uptimekuma",
                 "rgcache": "Caching library",
                 "hilsuapi": "A wrapper that allows you to use most API methods from hil.su",
