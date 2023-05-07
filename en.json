@@ -154,7 +154,8 @@
             "notStrongEnough": "Password is not strong enough",
             "passwordsNotEquals": "Passwords do not equals",
             "incorrectPassword": "Incorrect password",
-            "error": "Something went wrong"
+            "error": "Something went wrong",
+            "resetSessions": "Reset sessions"
         }
     },
     "general": {

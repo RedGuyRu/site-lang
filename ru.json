@@ -163,7 +163,8 @@
             "incorrectPassword": "Неверный пароль",
             "error": "Ошибка",
             "title": "Настройки",
-            "description": "Настройки аккаунта"
+            "description": "Настройки аккаунта",
+            "resetSessions": "Сбросить сессии"
         },
         "logs": {
             "service": "Источник",
