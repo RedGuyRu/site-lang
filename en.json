@@ -155,7 +155,12 @@
             "passwordsNotEquals": "Passwords do not equals",
             "incorrectPassword": "Incorrect password",
             "error": "Something went wrong",
-            "resetSessions": "Reset sessions"
+            "resetSessions": "Reset sessions",
+            "setTOTP": "Enable two-factor authentication",
+            "resetTOTP": "Disable two-factor authentication",
+            "code": "Code from the app",
+            "setTOTP2": "Confirm",
+            "incorrectCode": "Incorrect 2FA code"
         }
     },
     "general": {
