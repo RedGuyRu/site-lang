@@ -111,7 +111,8 @@
             "error": "Логин или пароль не верны",
             "emailNotConfirmed": "Ваш email не подтвержден",
             "viaVK": "Войти через ВК",
-            "description": "Авторизация на RedGuy.ru"
+            "description": "Авторизация на RedGuy.ru",
+            "tfa": "Двухфакторная авторизация"
         },
         "verify": {
             "wait": "Пожалуйста, подождите",
