@@ -12,7 +12,9 @@
             "p-desc": {
                 "rdnevnik": "TG and VK interface for school.mos.ru",
                 "webinfo": "HTTP API for your Minecraft server",
-                "votty": "Voting bot for your discord server"
+                "votty": "Voting bot for your discord server",
+                "mcrpo": "Telegram bot for festival \"ProProfessionals and ProPossibilities\"",
+                "newskingdom": "Telegram bot who collects news from different sources and classify them by category"
             },
             "today": "today",
             "j-position": {
@@ -48,7 +50,8 @@
         },
         "project": {
             "active": "Active",
-            "title": "Projects -> {name}"
+            "title": "Projects -> {name}",
+            "frozen": "Frozen"
         },
         "tools": {
             "loveAndUse": "I love and use"
