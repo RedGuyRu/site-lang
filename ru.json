@@ -61,7 +61,10 @@
         }
     },
     "general": {
-        "ilya": "Илья"
+        "ilya": "Илья",
+        "create": "Создать",
+        "cancel": "Отмена",
+        "close": "Закрыть"
     },
     "page": {
         "projects": {
@@ -104,7 +107,12 @@
         "dev": {
             "requestsPerMouth": "Запросов за месяц: {lmr}",
             "requestsPerDay": "Запросов за день: {ldr}",
-            "issuedTokens": "Выпущенные токены:"
+            "issuedTokens": "Выпущенные токены:",
+            "createApp": "Создать приложение",
+            "createdApp": "Приложение создано",
+            "appName": "Название приложения",
+            "appId": "ID приложения",
+            "appSecret": "Приватный токен приложения"
         },
         "status": {
             "cpu": "ЦП: {cpu}% из {cpus}",
@@ -188,8 +196,6 @@
             "payload": "Дополнительные данные",
             "createService": "Создать сервис",
             "serviceName": "Название сервиса",
-            "create": "Создать",
-            "cancel": "Отмена",
             "loadMore": "Загрузить ещё"
         },
         "index": {

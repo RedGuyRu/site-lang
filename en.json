@@ -101,7 +101,12 @@
         "dev": {
             "requestsPerMouth": "Requests per month: {lmr}",
             "requestsPerDay": "Requests per day: {ldr}",
-            "issuedTokens": "Issued tokens:"
+            "issuedTokens": "Issued tokens:",
+            "createApp": "Create app",
+            "createdApp": "App has been created",
+            "appName": "App name",
+            "appId": "App ID",
+            "appSecret": "App secret"
         },
         "verify": {
             "wait": "Please, wait",
@@ -168,6 +173,9 @@
         }
     },
     "general": {
-        "ilya": "Ilya"
+        "ilya": "Ilya",
+        "create": "Create",
+        "cancel": "Cancel",
+        "close": "Close"
     }
 }
