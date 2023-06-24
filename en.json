@@ -106,7 +106,8 @@
             "createdApp": "App has been created",
             "appName": "App name",
             "appId": "App ID",
-            "appSecret": "App secret"
+            "appSecret": "App secret",
+            "deleteApp": "Delete app"
         },
         "verify": {
             "wait": "Please, wait",
