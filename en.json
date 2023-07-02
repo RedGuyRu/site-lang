@@ -108,7 +108,13 @@
             "appId": "App ID",
             "appSecret": "App secret",
             "deleteApp": "Delete app",
-            "delete": "Delete"
+            "delete": "Delete",
+            "issueToken": "Issue token",
+            "issuingToken": "Issuing token",
+            "tokenName": "Token name",
+            "permissions": "Permissions",
+            "tokenIssued": "Token issued",
+            "saveToken": "Token showed only once, save it"
         },
         "verify": {
             "wait": "Please, wait",
@@ -179,5 +185,9 @@
         "create": "Create",
         "cancel": "Cancel",
         "close": "Close"
+    },
+    "permissions": {
+        "logs": "Logging",
+        "minecraft": "Minecraft"
     }
 }

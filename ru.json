@@ -114,7 +114,13 @@
             "appId": "ID приложения",
             "appSecret": "Приватный токен приложения",
             "deleteApp": "Удалить приложение",
-            "delete": "Удалить"
+            "delete": "Удалить",
+            "issueToken": "Выпустить токен",
+            "issuingToken": "Выпуск токена",
+            "tokenName": "Название токена",
+            "permissions": "Права",
+            "tokenIssued": "Токен выпущен",
+            "saveToken": "Токен отображается в первый и последний раз, сохраните его в надёжном месте!"
         },
         "status": {
             "cpu": "ЦП: {cpu}% из {cpus}",
@@ -215,5 +221,9 @@
             "title": "RedGuy.ru - Хаб",
             "description": "Список сервисов RedGuy.ru открытых для вас!"
         }
+    },
+    "permissions": {
+        "logs": "Логгинг",
+        "minecraft": "Minecraft"
     }
 }
