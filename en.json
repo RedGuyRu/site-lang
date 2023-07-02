@@ -107,7 +107,8 @@
             "appName": "App name",
             "appId": "App ID",
             "appSecret": "App secret",
-            "deleteApp": "Delete app"
+            "deleteApp": "Delete app",
+            "delete": "Delete"
         },
         "verify": {
             "wait": "Please, wait",
