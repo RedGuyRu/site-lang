@@ -188,6 +188,7 @@
     },
     "permissions": {
         "logs": "Logging",
-        "minecraft": "Minecraft"
+        "minecraft": "Minecraft",
+        "hashes": "Hashes decoding"
     }
 }

@@ -224,6 +224,7 @@
     },
     "permissions": {
         "logs": "Логгинг",
-        "minecraft": "Minecraft"
+        "minecraft": "Minecraft",
+        "hashes": "Декодирование хешей"
     }
 }
