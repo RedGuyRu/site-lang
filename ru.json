@@ -13,6 +13,9 @@
             "position": "Должность",
             "workDates": "Даты работы",
             "lang": "Язык",
+            "since": "С 12 апреля 2021 года я нахожусь в программировании более чем {hours} часов. Из этого {today} за сегодня и {forWeek} за неделю.",
+            "forToday": "За сегодня",
+            "forWeek": "За неделю",
             "p-desc": {
                 "rdnevnik": "ТГ и ВК интерфейс для school.mos.ru",
                 "webinfo": "HTTP API для вашего сервера Minecraft",

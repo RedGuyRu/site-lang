@@ -9,6 +9,9 @@
             "description": "Description",
             "position": "Position",
             "lang": "Language",
+            "since": "Since April 12 2021 I have been coding for {hours} hours. {today} of them today. {forWeek} of them for the last 7 days.",
+            "forToday": "For today",
+            "forWeek": "For week",
             "p-desc": {
                 "rdnevnik": "TG and VK interface for school.mos.ru",
                 "webinfo": "HTTP API for your Minecraft server",
