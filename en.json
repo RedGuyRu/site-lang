@@ -181,6 +181,11 @@
             "code": "Code from the app",
             "setTOTP2": "Confirm",
             "incorrectCode": "Incorrect 2FA code"
+        },
+        "repos": {
+            "descriptions": {
+                "LanguageUtils": "Fork of LanguageUtils plugin with some fixes"
+            }
         }
     },
     "general": {

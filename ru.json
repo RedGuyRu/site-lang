@@ -235,6 +235,11 @@
         "hub": {
             "title": "RedGuy.ru - Хаб",
             "description": "Список сервисов RedGuy.ru открытых для вас!"
+        },
+        "repos": {
+            "descriptions": {
+                "LanguageUtils": "Форк плагина LanguageUtils с некоторыми моими исправлениями"
+            }
         }
     },
     "permissions": {
