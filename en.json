@@ -9,7 +9,7 @@
             "description": "Description",
             "position": "Position",
             "lang": "Language",
-            "since": "Since April 12 2021 I have been coding for {hours} hours. {today} of them today. {forWeek} of them for the last 7 days.",
+            "since": "Since April 12 2021 I have been coding for {hours} hours. {todayH} hours {todayM} min of them today abd {forWeekH} hours {forWeekM} min of them for the last 7 days.",
             "forToday": "For today",
             "forWeek": "For week",
             "p-desc": {
@@ -38,7 +38,7 @@
                 "node-redguy-api": "Wrapper for interacting with the API redguy.ru",
                 "java-redguy-api": "Wrapper for interacting with the API redguy.ru"
             },
-            "story": "My name is {name}, I have been interested and growing in the IT sphere for several years. {br} Now I mainly work on {java} and {javascript}. {br} Just below you can find a list of some of my developments, and if you click {hub}, you can try it yourself."
+            "story": "My name is {name}, I have been interested and growing in the IT sphere for many years. {br} Now I mainly work on {java} and {javascript}. {br} Just below you can find a list of some of my developments, and if you click {hub}, you can try it yourself."
         },
         "stats": {
             "total": "Total time coded since Apr 12 2021"
