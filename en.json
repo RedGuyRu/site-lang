@@ -54,7 +54,8 @@
         "project": {
             "active": "Active",
             "title": "Projects -> {name}",
-            "frozen": "Frozen"
+            "frozen": "Frozen",
+            "end": "Finished"
         },
         "tools": {
             "loveAndUse": "I love and use"
