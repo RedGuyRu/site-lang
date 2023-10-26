@@ -187,6 +187,14 @@
             "descriptions": {
                 "LanguageUtils": "Fork of LanguageUtils plugin with some fixes"
             }
+        },
+        "story": {
+            "show": {
+                "title": "Story",
+                "description": "Reading text versions of scripts of movies and games on RedGuy.ru"
+            },
+            "title": "Script selecting",
+            "description": "Selecting script for reading."
         }
     },
     "general": {
