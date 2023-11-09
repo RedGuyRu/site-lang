@@ -242,6 +242,42 @@
             "descriptions": {
                 "LanguageUtils": "Форк плагина LanguageUtils с некоторыми моими исправлениями"
             }
+        },
+        "socials": {
+            "description": "Мои блоги и каналы",
+            "my": "Мои каналы",
+            "sleeplesscode": {
+                "title": "Бессонный кодер",
+                "description": "Мой личный канал где я расказываю о своих проектах и не только"
+            },
+            "sleeplesschat": {
+                "title": "Спящие джуны",
+                "description": "Мой чат в Telegram, где я общаюсь с подписчиками"
+            },
+            "sleeplessfoto": {
+                "title": "Бессонные фоточки",
+                "description": "Мой личный канал в Telegram, где я публикую свои фотографии"
+            },
+            "sleeplessstickers": {
+                "title": "Бессонные стикеры",
+                "description": "Мой канал в Telegram, где я публикую обновления своих стикеров"
+            },
+            "redguyru": {
+                "title": "RedGuy: Оперативно",
+                "description": "Официальный канал RedGuy.ru, где я публикую обновления и новости"
+            },
+            "youtube": {
+                "title": "RedGuy",
+                "description": "Мой канал на YouTube, где я публикую самые разнообразные видео"
+            },
+            "boosty": {
+                "title": "Boosty",
+                "description": "Мой Boosty, где я публикую интересные дополнительные материалы и вы можете поддержать меня!"
+            },
+            "patreon": {
+                "title": "Patreon",
+                "description": "Мой Patreon, где я публикую интересные дополнительные материалы (на английском) и вы можете поддержать меня!"
+            }
         }
     },
     "permissions": {
