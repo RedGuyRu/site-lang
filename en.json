@@ -38,7 +38,8 @@
                 "node-redguy-api": "Wrapper for interacting with the API redguy.ru",
                 "java-redguy-api": "Wrapper for interacting with the API redguy.ru"
             },
-            "story": "My name is {name}, I have been interested and growing in the IT sphere for many years. {br} Now I mainly work on {java} and {javascript}. {br} Just below you can find a list of some of my developments, and if you click {hub}, you can try it yourself."
+            "story": "My name is {name}, I have been interested and growing in the IT sphere for many years. {br} Now I mainly work on {java} and {javascript}. {br} Just below you can find a list of some of my developments, and if you click {hub}, you can try it yourself.",
+            "contact": "Contact me at"
         },
         "stats": {
             "total": "Total time coded since Apr 12 2021"

@@ -39,7 +39,8 @@
                 "node-redguy-api": "Враппер для работы с API redguy.ru",
                 "java-redguy-api": "Враппер для работы с API redguy.ru",
                 "animatext": "Тестовая библиотека для создания и проигрывания ascii анимаций"
-            }
+            },
+            "contact": "Для связи"
         },
         "appcard": {
             "go": "Перейти"
