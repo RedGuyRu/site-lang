@@ -9,7 +9,10 @@
             "description": "Description",
             "position": "Position",
             "lang": "Language",
-            "since": "Since April 12 2021 I have been coding for {hours} hours. {todayH} hours {todayM} min of them today abd {forWeekH} hours {forWeekM} min of them for the last 7 days.",
+            "since": {
+                "total": "Since April 12 2021 I have been coding for {hours} hours.",
+                "detail": "{todayH} hours {todayM} minutes I spent developing today and {weekH} hours {weekM} over the last 7 days."
+            },
             "forToday": "For today",
             "forWeek": "For week",
             "p-desc": {
@@ -196,6 +199,42 @@
             },
             "title": "Script selecting",
             "description": "Selecting script for reading."
+        },
+        "socials": {
+            "description": "My blogs and channels on different platforms",
+            "my": "My blogs and channels",
+            "sleeplesscode": {
+                "title": "Sleepless developer",
+                "description": "My blog in Telegram, where I publish my thoughts and ideas (in Russian)"
+            },
+            "sleeplesschat": {
+                "title": "Sleeping juniors",
+                "description": "My chat in Telegram, where I chat with my subscribers (mostly in Russian)"
+            },
+            "sleeplessfoto": {
+                "title": "Sleepless photos",
+                "description": "My channel in Telegram, where I publish my photos"
+            },
+            "sleeplessstickers": {
+                "title": "Sleepless stickers",
+                "description": "My channel in Telegram, where I publish stickers created by me"
+            },
+            "redguyru": {
+                "title": "RedGuy: operationally",
+                "description": "Official channel of redguy.org in Telegram, where I publish news about the projects (in Russian)"
+            },
+            "youtube": {
+                "title": "RedGuy",
+                "description": "My YouTube channel, where I publish videos about my things (in Russian)"
+            },
+            "boosty": {
+                "title": "Boosty",
+                "description": "My page on Boosty, where I publish additional materials and you can support me! (in Russian)"
+            },
+            "patreon": {
+                "title": "Patreon",
+                "description": "My page on Patreon, where I publish additional materials and you can support me! (in English)"
+            }
         }
     },
     "general": {
