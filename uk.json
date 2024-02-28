@@ -1,7 +1,163 @@
 {
     "components": {
         "about": {
-            "helloWorld": "Привіт, світе!"
+            "helloWorld": "Привіт, світе!",
+            "today": "сьогодні",
+            "j-position": {
+                "flame": "Програміст, спів-автор",
+                "programmer": "Програміст"
+            },
+            "forToday": "За сьогодні",
+            "forWeek": "За тиждень",
+            "name": "Назва",
+            "type": "Тип",
+            "description": "Опис",
+            "tech": "Технології",
+            "position": "Посада",
+            "workDates": "Дати роботи",
+            "lang": "Мова",
+            "since": {
+                "total": "З 12 квітня 2021 я програмую протягом більш ніж {hours} годин."
+            },
+            "projects": "Проєкти",
+            "contact": "Для зв'язку"
+        },
+        "nav": {
+            "login": "Увійти",
+            "main": "Головна",
+            "logout": "Вийти"
+        },
+        "project": {
+            "end": "Завершено",
+            "title": "Проєкти -> {name}",
+            "active": "Активний"
+        },
+        "tech": {
+            "useAndLearn": "Використовую і вивчаю"
+        },
+        "appcard": {
+            "go": "Перейти"
+        },
+        "tools": {
+            "loveAndUse": "Люблю і використовую"
         }
+    },
+    "page": {
+        "projects": {
+            "rdnevnik": {
+                "api": "API сервер",
+                "tg": "Телеграм бот",
+                "tg-open": "Бот в Телеграм",
+                "api-lib": "API бібліотека"
+            },
+            "votty": {
+                "invite": "Запросити",
+                "slogan": "Зробимо голосування простішими."
+            },
+            "newskingdom": {
+                "link": "Відкрити чат"
+            }
+        },
+        "dev": {
+            "deleteApp": "Видалити додаток",
+            "appId": "ID додатку",
+            "requestsPerMouth": "Запитів на місяць: {lmr}",
+            "delete": "Видалити",
+            "requestsPerDay": "Запитів за день: {ldr}",
+            "createApp": "Створити додаток",
+            "createdApp": "Додаток створено",
+            "appName": "Назва додатку",
+            "tokenName": "Назва токену",
+            "permissions": "Права"
+        },
+        "verify": {
+            "wait": "Будь ласка, зачекайте",
+            "error": "Щось пішло не так",
+            "main": "головну"
+        },
+        "register": {
+            "loginExists": "Логін вже зайнято",
+            "register": "Зареєструватись",
+            "login": "Логін",
+            "email": "Email",
+            "password": "Пароль",
+            "haveAccount": "Вже є аккаунт?",
+            "passwordAgainError": "Паролі не співпадають",
+            "emailExists": "Почта вже зайнята",
+            "error": "Щось пішло не так"
+        },
+        "oauth": {
+            "authorize": {
+                "willAllow": "Це дозволить додатку:",
+                "allow": "Дозволити",
+                "cancel": "Відміна",
+                "app": "Додаток {app}"
+            }
+        },
+        "settings": {
+            "cancel": "Відміна",
+            "changePassword": "Зміна паролю",
+            "newPassword": "Новий пароль",
+            "safety": "Безпека",
+            "incorrectPassword": "Невірний пароль",
+            "error": "Помилка",
+            "title": "Налаштування",
+            "description": "Налаштування аккаунту",
+            "resetSessions": "Скинути сессії",
+            "code": "Код з додатку",
+            "setTOTP2": "Підтвердити"
+        },
+        "reset": {
+            "not-match": "Паролі не співпадають",
+            "too-easy": "Пароль занадто простий",
+            "enter": "Введіть новий пароль"
+        },
+        "quotes": {
+            "add": {
+                "addAuthor": "Додати автора",
+                "addSource": "Додати джерело: {quote_author}",
+                "quoteSearch": "Пошук цитат"
+            }
+        },
+        "login": {
+            "error": "Логін або пароль невірні",
+            "emailNotConfirmed": "Ваш email не підтверджено"
+        },
+        "logs": {
+            "service": "Джерело",
+            "time": "Час",
+            "level": "Рівень",
+            "message": "Повідомлення",
+            "payload": "Додаткові дані",
+            "createService": "Створити сервіс",
+            "serviceName": "Назва сервісу",
+            "loadMore": "Завантажити ще"
+        },
+        "story": {
+            "show": {
+                "title": "Перегляд історії"
+            }
+        },
+        "socials": {
+            "youtube": {
+                "title": "RedGuy"
+            },
+            "patreon": {
+                "title": "Patreon"
+            }
+        }
+    },
+    "general": {
+        "create": "Створити",
+        "cancel": "Відміна",
+        "close": "Закрити",
+        "back": "Назад",
+        "ilya": "Ілля",
+        "send": "Надіслати",
+        "sent": "Наідслано"
+    },
+    "permissions": {
+        "logs": "Логгінг",
+        "minecraft": "Minecraft"
     }
 }
