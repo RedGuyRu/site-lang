@@ -282,6 +282,10 @@
             "patreon": {
                 "title": "Patreon",
                 "description": "Мой Patreon, где я публикую интересные дополнительные материалы (на английском) и вы можете поддержать меня!"
+            },
+            "discord": {
+                "title": "SleepLessCode discord",
+                "description": "Мой Discord сервер, где я частенько общаюсь"
             }
         }
     },
