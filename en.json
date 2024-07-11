@@ -70,7 +70,7 @@
     },
     "page": {
         "status": {
-            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2)Gb",
+            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2}Gb",
             "cpu": "CPU: {cpu}% of {cpus}",
             "memory": "RAM: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
             "disk": "Disk: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
