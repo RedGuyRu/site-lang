@@ -1,104 +1,150 @@
 {
     "components": {
         "about": {
-            "helloWorld": "Hello, World!",
-            "projects": "Projects",
-            "myLibs": "My libraries",
-            "name": "Name",
-            "type": "Type",
+            "contact": "Contact me at",
             "description": "Description",
-            "position": "Position",
-            "lang": "Language",
-            "since": {
-                "total": "Since April 12 2021 I have been coding for {hours} hours.",
-                "detail": "{todayH} hours {todayM} minutes I spent developing today and {weekH} hours {weekM} over the last 7 days."
-            },
+            "engageProjects": "Participating in the development",
             "forToday": "For today",
             "forWeek": "For week",
-            "p-desc": {
-                "rdnevnik": "TG and VK interface for school.mos.ru",
-                "webinfo": "HTTP API for your Minecraft server",
-                "votty": "Voting bot for your discord server",
-                "mcrpo": "Telegram bot for festival \"ProProfessionals and ProPossibilities\"",
-                "newskingdom": "Telegram bot who collects news from different sources and classify them by category"
-            },
-            "today": "today",
+            "helloWorld": "Hello, World!",
             "j-position": {
-                "programmer": "Programmer",
                 "flame": "Programmer, co-author",
-                "hil": "Manager, Tech. admin"
+                "hil": "Manager, Tech. admin",
+                "programmer": "Programmer"
             },
-            "engageProjects": "Participating in the development",
-            "tech": "Technologies",
-            "workDates": "Dates of work",
             "l-desc": {
+                "animatext": "Test library for creating and playing ascii animations",
+                "hilsuapi": "A wrapper that allows you to use most API methods from hil.su",
+                "java-redguy-api": "Wrapper for interacting with the API redguy.ru",
                 "jrweb": "Java web server without dependencies",
                 "kuma": "Wrapper for interacting with uptimekuma",
-                "rgcache": "Caching library",
-                "hilsuapi": "A wrapper that allows you to use most API methods from hil.su",
-                "yclogs": "An appender for log4js that allows you to record logs in yandex logging",
-                "animatext": "Test library for creating and playing ascii animations",
                 "node-redguy-api": "Wrapper for interacting with the API redguy.ru",
-                "java-redguy-api": "Wrapper for interacting with the API redguy.ru"
+                "rgcache": "Caching library",
+                "yclogs": "An appender for log4js that allows you to record logs in yandex logging"
+            },
+            "lang": "Language",
+            "myLibs": "My libraries",
+            "name": "Name",
+            "p-desc": {
+                "mcrpo": "Telegram bot for festival \"ProProfessionals and ProPossibilities\"",
+                "newskingdom": "Telegram bot who collects news from different sources and classify them by category",
+                "rdnevnik": "TG and VK interface for school.mos.ru",
+                "votty": "Voting bot for your discord server",
+                "webinfo": "HTTP API for your Minecraft server"
+            },
+            "position": "Position",
+            "projects": "Projects",
+            "since": {
+                "detail": "{todayH} hours {todayM} minutes I spent developing today and {weekH} hours {weekM} over the last 7 days.",
+                "total": "Since April 12 2021 I have been coding for {hours} hours."
             },
             "story": "My name is {name}, I have been interested and growing in the IT sphere for many years. {br} Now I mainly work on {java} and {javascript}. {br} Just below you can find a list of some of my developments, and if you click {hub}, you can try it yourself.",
-            "contact": "Contact me at"
-        },
-        "stats": {
-            "total": "Total time coded since Apr 12 2021"
+            "tech": "Technologies",
+            "today": "today",
+            "type": "Type",
+            "workDates": "Dates of work"
         },
         "appcard": {
             "go": "Go"
         },
         "nav": {
-            "main": "Home",
             "login": "Login",
-            "logout": "Logout"
+            "logout": "Logout",
+            "main": "Home"
         },
         "project": {
             "active": "Active",
-            "title": "Projects -> {name}",
+            "end": "Finished",
             "frozen": "Frozen",
-            "end": "Finished"
+            "title": "Projects -> {name}"
         },
-        "tools": {
-            "loveAndUse": "I love and use"
+        "stats": {
+            "total": "Total time coded since Apr 12 2021"
         },
         "tech": {
             "useAndLearn": "Using and learning"
+        },
+        "tools": {
+            "loveAndUse": "I love and use"
         }
     },
+    "general": {
+        "cancel": "Cancel",
+        "close": "Close",
+        "create": "Create",
+        "ilya": "Ilya"
+    },
     "page": {
-        "status": {
-            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2}Gb",
-            "cpu": "CPU: {cpu}% of {cpus}",
-            "memory": "RAM: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
-            "disk": "Disk: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
-            "swap": "SWAP: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
-            "diskStats": "Read: {toFixed}GB Write: {toFixed_2}GB"
+        "dev": {
+            "appId": "App ID",
+            "appName": "App name",
+            "appSecret": "App secret",
+            "createApp": "Create app",
+            "createdApp": "App has been created",
+            "delete": "Delete",
+            "deleteApp": "Delete app",
+            "issueToken": "Issue token",
+            "issuedTokens": "Issued tokens:",
+            "issuingToken": "Issuing token",
+            "permissions": "Permissions",
+            "requestsPerDay": "Requests per day: {ldr}",
+            "requestsPerMouth": "Requests per month: {lmr}",
+            "saveToken": "Token showed only once, save it",
+            "tokenIssued": "Token issued",
+            "tokenName": "Token name"
+        },
+        "index": {
+            "about": "Welcome! My name is Ilya, I'm a Java and Node.js developer with more than 6 years of experience.",
+            "contact": "You can contact with me using:",
+            "contact2": "Also with telegram bot:",
+            "dashboards": "Stats dashboards",
+            "experience": "I specialize in creating Telegram bots and back-end solutions for various projects. Over the years I have managed to cooperate with the Moscow Center for the Development of Professional Education, College of Communications №54, StoryTelling team, AltaSoft and dozens of individual customers. I'm always open to new ideas and ready to help bring your project to life!",
+            "guard": "Imperium Guard",
+            "intro": "Java && Node.js Backend Developer",
+            "voice": "Underground transcriber"
+        },
+        "login": {
+            "emailNotConfirmed": "Your email is not confirmed",
+            "error": "Login or password is incorrect",
+            "tfa": "2FA code",
+            "title": "Log in at RedGuy.ru",
+            "viaVK": "Login via VK"
+        },
+        "oauth": {
+            "authorize": {
+                "access": {
+                    "email": "Access to your email",
+                    "nickname": "Access to your nickname and id"
+                },
+                "allow": "Allow",
+                "app": "App {app}",
+                "cancel": "Cancel",
+                "requestsAccess": "requests access to your account",
+                "willAllow": "It will allow app to:"
+            }
         },
         "projects": {
             "rdnevnik": {
                 "api": "API server",
+                "api-lib": "API library",
+                "desc": "Telegram and VKontakte interface for accessing a student's electronic diary {link}.{br} Uses natural language processing technology to understand any user's wording.",
+                "nlp": "NLP model",
+                "slogan": "Let's make studying easier on our own.",
                 "tg": "Telegram bot",
                 "tg-open": "Bot in Telegram",
                 "vk": "VKontakte bot",
-                "vk-open": "Bot in VKontakte",
-                "api-lib": "API library",
-                "nlp": "NLP model",
-                "desc": "Telegram and VKontakte interface for accessing a student's electronic diary {link}.{br} Uses natural language processing technology to understand any user's wording.",
-                "slogan": "Let's make studying easier on our own."
+                "vk-open": "Bot in VKontakte"
             },
             "votty": {
-                "invite": "Invite",
                 "desc": "A specialized bot for voting on your Discord server!",
+                "invite": "Invite",
                 "slogan": "Let's make voting easier."
             },
             "webinfo": {
-                "swagger": "Swagger documentation",
-                "link": "link (click)",
                 "desc": "HTTP API-interface for your Minecraft Spigot or Sponge server.",
-                "slogan": "Everything can be accessed via a browser."
+                "link": "link (click)",
+                "slogan": "Everything can be accessed via a browser.",
+                "swagger": "Swagger documentation"
             }
         },
         "quotes": {
@@ -106,146 +152,110 @@
                 "addQuote": "Add quote: {quote_author}"
             }
         },
-        "dev": {
-            "requestsPerMouth": "Requests per month: {lmr}",
-            "requestsPerDay": "Requests per day: {ldr}",
-            "issuedTokens": "Issued tokens:",
-            "createApp": "Create app",
-            "createdApp": "App has been created",
-            "appName": "App name",
-            "appId": "App ID",
-            "appSecret": "App secret",
-            "deleteApp": "Delete app",
-            "delete": "Delete",
-            "issueToken": "Issue token",
-            "issuingToken": "Issuing token",
-            "tokenName": "Token name",
-            "permissions": "Permissions",
-            "tokenIssued": "Token issued",
-            "saveToken": "Token showed only once, save it"
-        },
-        "verify": {
-            "wait": "Please, wait",
-            "error": "Something went wrong",
-            "ok": "Done! You can go to the",
-            "main": "main page",
-            "emailNotConfirmed": "Your email is not confirmed"
-        },
-        "login": {
-            "title": "Log in at RedGuy.ru",
-            "error": "Login or password is incorrect",
-            "emailNotConfirmed": "Your email is not confirmed",
-            "viaVK": "Login via VK",
-            "tfa": "2FA code"
-        },
         "register": {
-            "ok": "We have sent you an email with a link to confirm your account. Please, check your email.",
-            "register": "Register",
-            "login": "Login",
             "email": "Email",
+            "emailError": "Email is not valid",
+            "emailExists": "Email already exists",
+            "error": "Something went wrong",
+            "haveAccount": "Already have an account?",
+            "login": "Login",
+            "loginError": "Login must be at least 3 characters long",
+            "loginExists": "Login already exists",
+            "ok": "We have sent you an email with a link to confirm your account. Please, check your email.",
             "password": "Password",
             "passwordAgain": "Repeat password",
-            "haveAccount": "Already have an account?",
-            "title": "Register at RedGuy.ru",
-            "loginError": "Login must be at least 3 characters long",
-            "passwordError": "Password must be at least 8 characters long and contain at least one number and one letter of both cases",
             "passwordAgainError": "Passwords do not match",
-            "emailError": "Email is not valid",
-            "loginExists": "Login already exists",
-            "emailExists": "Email already exists",
-            "error": "Something went wrong"
-        },
-        "oauth": {
-            "authorize": {
-                "allow": "Allow",
-                "cancel": "Cancel",
-                "app": "App {app}",
-                "requestsAccess": "requests access to your account",
-                "willAllow": "It will allow app to:",
-                "access": {
-                    "nickname": "Access to your nickname and id",
-                    "email": "Access to your email"
-                }
-            }
-        },
-        "settings": {
-            "changePassword": "Password change",
-            "currentPassword": "Current password",
-            "newPassword": "New password",
-            "newPasswordAgain": "Retype new password",
-            "changePassword2": "Change password",
-            "cancel": "Cancel",
-            "safety": "Safety",
-            "notStrongEnough": "Password is not strong enough",
-            "passwordsNotEquals": "Passwords do not equals",
-            "incorrectPassword": "Incorrect password",
-            "error": "Something went wrong",
-            "resetSessions": "Reset sessions",
-            "setTOTP": "Enable two-factor authentication",
-            "resetTOTP": "Disable two-factor authentication",
-            "code": "Code from the app",
-            "setTOTP2": "Confirm",
-            "incorrectCode": "Incorrect 2FA code"
+            "passwordError": "Password must be at least 8 characters long and contain at least one number and one letter of both cases",
+            "register": "Register",
+            "title": "Register at RedGuy.ru"
         },
         "repos": {
             "descriptions": {
                 "LanguageUtils": "Fork of LanguageUtils plugin with some fixes"
             }
         },
-        "story": {
-            "show": {
-                "title": "Story",
-                "description": "Reading text versions of scripts of movies and games on RedGuy.ru"
-            },
-            "title": "Script selecting",
-            "description": "Selecting script for reading."
+        "settings": {
+            "cancel": "Cancel",
+            "changePassword": "Password change",
+            "changePassword2": "Change password",
+            "code": "Code from the app",
+            "currentPassword": "Current password",
+            "error": "Something went wrong",
+            "incorrectCode": "Incorrect 2FA code",
+            "incorrectPassword": "Incorrect password",
+            "newPassword": "New password",
+            "newPasswordAgain": "Retype new password",
+            "notStrongEnough": "Password is not strong enough",
+            "passwordsNotEquals": "Passwords do not equals",
+            "resetSessions": "Reset sessions",
+            "resetTOTP": "Disable two-factor authentication",
+            "safety": "Safety",
+            "setTOTP": "Enable two-factor authentication",
+            "setTOTP2": "Confirm"
         },
         "socials": {
+            "boosty": {
+                "description": "My page on Boosty, where I publish additional materials and you can support me! (in Russian)",
+                "title": "Boosty"
+            },
             "description": "My blogs and channels on different platforms",
             "my": "My blogs and channels",
-            "sleeplesscode": {
-                "title": "Sleepless developer",
-                "description": "My blog in Telegram, where I publish my thoughts and ideas (in Russian)"
-            },
-            "sleeplesschat": {
-                "title": "Sleeping juniors",
-                "description": "My chat in Telegram, where I chat with my subscribers (mostly in Russian)"
-            },
-            "sleeplessfoto": {
-                "title": "Sleepless photos",
-                "description": "My channel in Telegram, where I publish my photos"
-            },
-            "sleeplessstickers": {
-                "title": "Sleepless stickers",
-                "description": "My channel in Telegram, where I publish stickers created by me"
+            "patreon": {
+                "description": "My page on Patreon, where I publish additional materials and you can support me! (in English)",
+                "title": "Patreon"
             },
             "redguyru": {
-                "title": "RedGuy: operationally",
-                "description": "Official channel of redguy.org in Telegram, where I publish news about the projects (in Russian)"
+                "description": "Official channel of redguy.org in Telegram, where I publish news about the projects (in Russian)",
+                "title": "RedGuy: operationally"
+            },
+            "sleeplesschat": {
+                "description": "My chat in Telegram, where I chat with my subscribers (mostly in Russian)",
+                "title": "Sleeping juniors"
+            },
+            "sleeplesscode": {
+                "description": "My blog in Telegram, where I publish my thoughts and ideas (in Russian)",
+                "title": "Sleepless developer"
+            },
+            "sleeplessfoto": {
+                "description": "My channel in Telegram, where I publish my photos",
+                "title": "Sleepless photos"
+            },
+            "sleeplessstickers": {
+                "description": "My channel in Telegram, where I publish stickers created by me",
+                "title": "Sleepless stickers"
             },
             "youtube": {
-                "title": "RedGuy",
-                "description": "My YouTube channel, where I publish videos about my things (in Russian)"
-            },
-            "boosty": {
-                "title": "Boosty",
-                "description": "My page on Boosty, where I publish additional materials and you can support me! (in Russian)"
-            },
-            "patreon": {
-                "title": "Patreon",
-                "description": "My page on Patreon, where I publish additional materials and you can support me! (in English)"
+                "description": "My YouTube channel, where I publish videos about my things (in Russian)",
+                "title": "RedGuy"
             }
+        },
+        "status": {
+            "cpu": "CPU: {cpu}% of {cpus}",
+            "disk": "Disk: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
+            "diskStats": "Read: {toFixed}GB Write: {toFixed_2}GB",
+            "memory": "RAM: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
+            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2}Gb",
+            "swap": "SWAP: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)"
+        },
+        "story": {
+            "description": "Selecting script for reading.",
+            "show": {
+                "description": "Reading text versions of scripts of movies and games on RedGuy.ru",
+                "title": "Story"
+            },
+            "title": "Script selecting"
+        },
+        "verify": {
+            "emailNotConfirmed": "Your email is not confirmed",
+            "error": "Something went wrong",
+            "main": "main page",
+            "ok": "Done! You can go to the",
+            "wait": "Please, wait"
         }
     },
-    "general": {
-        "ilya": "Ilya",
-        "create": "Create",
-        "cancel": "Cancel",
-        "close": "Close"
-    },
     "permissions": {
+        "hashes": "Hashes decoding",
         "logs": "Logging",
-        "minecraft": "Minecraft",
-        "hashes": "Hashes decoding"
+        "minecraft": "Minecraft"
     }
 }
