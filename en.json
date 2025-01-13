@@ -30,7 +30,9 @@
                 "newskingdom": "Telegram bot who collects news from different sources and classify them by category",
                 "rdnevnik": "TG and VK interface for school.mos.ru",
                 "votty": "Voting bot for your discord server",
-                "webinfo": "HTTP API for your Minecraft server"
+                "webinfo": "HTTP API for your Minecraft server",
+                "guard": "Bot moderator for telegram chats",
+                "pwvoice": "Telegram bot for voice messages transcription"
             },
             "position": "Position",
             "projects": "Projects",
@@ -72,7 +74,10 @@
         "cancel": "Cancel",
         "close": "Close",
         "create": "Create",
-        "ilya": "Ilya"
+        "ilya": "Ilya",
+        "send": "Send",
+        "sent": "Sent",
+        "back": "Back"
     },
     "page": {
         "dev": {
@@ -89,26 +94,28 @@
             "permissions": "Permissions",
             "requestsPerDay": "Requests per day: {ldr}",
             "requestsPerMouth": "Requests per month: {lmr}",
-            "saveToken": "Token showed only once, save it",
+            "saveToken": "Token showed only once, save it!",
             "tokenIssued": "Token issued",
             "tokenName": "Token name"
         },
         "index": {
             "about": "Welcome! My name is Ilya, I'm a Java and Node.js developer with more than 6 years of experience.",
-            "contact": "You can contact with me using:",
-            "contact2": "Also with telegram bot:",
+            "contact": "You can contact with me using: ",
+            "contact2": "Also with telegram bot: ",
             "dashboards": "Stats dashboards",
             "experience": "I specialize in creating Telegram bots and back-end solutions for various projects. Over the years I have managed to cooperate with the Moscow Center for the Development of Professional Education, College of Communications №54, StoryTelling team, AltaSoft and dozens of individual customers. I'm always open to new ideas and ready to help bring your project to life!",
             "guard": "Imperium Guard",
             "intro": "Java && Node.js Backend Developer",
-            "voice": "Underground transcriber"
+            "voice": "Underground transcriber",
+            "description": "RedGuy.ru is a site of an ordinary programmer, where you can learn about me, my projects, as well as use my facilities"
         },
         "login": {
             "emailNotConfirmed": "Your email is not confirmed",
             "error": "Login or password is incorrect",
             "tfa": "2FA code",
             "title": "Log in at RedGuy.ru",
-            "viaVK": "Login via VK"
+            "viaVK": "Login via VK",
+            "description": "Auth of redguy.ru"
         },
         "oauth": {
             "authorize": {
@@ -145,11 +152,19 @@
                 "link": "link (click)",
                 "slogan": "Everything can be accessed via a browser.",
                 "swagger": "Swagger documentation"
+            },
+            "newskingdom": {
+                "link": "Open chat",
+                "slogan": "Time to read all news without leaving a chat.",
+                "desc": "Telegram bot that collects news from different sources, categorizes and sends to chat.{br} Receiving a new post from the channel, checks it for uniqueness, determines one of the categories: Russia, IT, Russia and the World, Film and Animation, Moscow, Animal World, Positive, Education, Economy, St. Petersburg, then sends this post to the top of this category."
             }
         },
         "quotes": {
             "add": {
-                "addQuote": "Add quote: {quote_author}"
+                "addQuote": "Add quote: {quote_author}",
+                "addAuthor": "Add author",
+                "addSource": "Add source: {quote_author}",
+                "quoteSearch": "Quote search"
             }
         },
         "register": {
@@ -167,7 +182,8 @@
             "passwordAgainError": "Passwords do not match",
             "passwordError": "Password must be at least 8 characters long and contain at least one number and one letter of both cases",
             "register": "Register",
-            "title": "Register at RedGuy.ru"
+            "title": "Register at RedGuy.ru",
+            "description": "Register on redguy.ru"
         },
         "repos": {
             "descriptions": {
@@ -191,17 +207,19 @@
             "resetTOTP": "Disable two-factor authentication",
             "safety": "Safety",
             "setTOTP": "Enable two-factor authentication",
-            "setTOTP2": "Confirm"
+            "setTOTP2": "Confirm",
+            "description": "Account settings",
+            "title": "Settings"
         },
         "socials": {
             "boosty": {
-                "description": "My page on Boosty, where I publish additional materials and you can support me! (in Russian)",
+                "description": "My page on Boosty, where I publish additional materials and you can support me!",
                 "title": "Boosty"
             },
             "description": "My blogs and channels on different platforms",
             "my": "My blogs and channels",
             "patreon": {
-                "description": "My page on Patreon, where I publish additional materials and you can support me! (in English)",
+                "description": "My page on Patreon, where I publish additional materials and you can support me!",
                 "title": "Patreon"
             },
             "redguyru": {
@@ -227,6 +245,11 @@
             "youtube": {
                 "description": "My YouTube channel, where I publish videos about my things (in Russian)",
                 "title": "RedGuy"
+            },
+            "title": "RedGuy - Blogs and channels",
+            "discord": {
+                "title": "SleepLessCode discord",
+                "description": "My Discord server, where I chat a lot"
             }
         },
         "status": {
@@ -238,7 +261,7 @@
             "swap": "SWAP: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)"
         },
         "story": {
-            "description": "Selecting script for reading.",
+            "description": "Selecting script for reading",
             "show": {
                 "description": "Reading text versions of scripts of movies and games on RedGuy.ru",
                 "title": "Story"
@@ -251,6 +274,29 @@
             "main": "main page",
             "ok": "Done! You can go to the",
             "wait": "Please, wait"
+        },
+        "hub": {
+            "description": "List of redguy.ru services for you!",
+            "title": "RedGuy.ru - Hub"
+        },
+        "logs": {
+            "createService": "Create a service",
+            "level": "Level",
+            "loadMore": "Load more",
+            "message": "Message",
+            "payload": "Payload",
+            "service": "Service",
+            "serviceName": "Service name",
+            "time": "Time"
+        },
+        "reset": {
+            "enter": "Enter a new password",
+            "not-match": "The passwords don't match",
+            "too-easy": "The password is too easy"
+        },
+        "restore": {
+            "enter": "Enter email, which you use for register",
+            "sent": "If this email exists in our system, we have sent an email with a password recovery link."
         }
     },
     "permissions": {
