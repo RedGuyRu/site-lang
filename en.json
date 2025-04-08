@@ -99,8 +99,8 @@
             "tokenName": "Token name"
         },
         "hub": {
-            "description": "Just a my services.",
-            "title": "Sleepless - Hub"
+            "description": "List of redguy.ru services for you!",
+            "title": "RedGuy.ru - Hub"
         },
         "index": {
             "about": "Welcome! My name is Ilya, I'm a Java and Node.js developer with more than 6 years of experience.",
@@ -278,10 +278,6 @@
             "main": "main page",
             "ok": "Done! You can go to the",
             "wait": "Please, wait"
-        },
-        "hub": {
-            "description": "List of redguy.ru services for you!",
-            "title": "RedGuy.ru - Hub"
         },
         "logs": {
             "createService": "Create a service",
