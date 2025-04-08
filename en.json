@@ -93,6 +93,10 @@
             "tokenIssued": "Token issued",
             "tokenName": "Token name"
         },
+        "hub": {
+            "description": "Just a my services.",
+            "title": "Sleepless - Hub"
+        },
         "index": {
             "about": "Welcome! My name is Ilya, I'm a Java and Node.js developer with more than 6 years of experience.",
             "contact": "You can contact with me using:",

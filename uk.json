@@ -64,6 +64,10 @@
             "requestsPerMouth": "Запитів на місяць: {lmr}",
             "tokenName": "Назва токену"
         },
+        "hub": {
+            "description": "",
+            "title": ""
+        },
         "index": {
             "about": "",
             "contact": "",

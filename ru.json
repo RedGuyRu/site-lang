@@ -98,8 +98,8 @@
             "tokenName": "Название токена"
         },
         "hub": {
-            "description": "Список сервисов RedGuy.ru открытых для вас!",
-            "title": "RedGuy.ru - Хаб"
+            "description": "Список моих сервисов.",
+            "title": "Sleepless - Хаб"
         },
         "index": {
             "about": "Привет! Меня зовут Илья, я Java и Node.js программист с более чем 6-летним опытом.",
