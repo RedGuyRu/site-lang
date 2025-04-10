@@ -26,13 +26,13 @@
             "myLibs": "My libraries",
             "name": "Name",
             "p-desc": {
+                "guard": "Bot moderator for telegram chats",
                 "mcrpo": "Telegram bot for festival \"ProProfessionals and ProPossibilities\"",
                 "newskingdom": "Telegram bot who collects news from different sources and classify them by category",
+                "pwvoice": "Telegram bot for voice messages transcription",
                 "rdnevnik": "TG and VK interface for school.mos.ru",
                 "votty": "Voting bot for your discord server",
-                "webinfo": "HTTP API for your Minecraft server",
-                "guard": "Bot moderator for telegram chats",
-                "pwvoice": "Telegram bot for voice messages transcription"
+                "webinfo": "HTTP API for your Minecraft server"
             },
             "position": "Position",
             "projects": "Projects",
@@ -71,13 +71,13 @@
         }
     },
     "general": {
+        "back": "Back",
         "cancel": "Cancel",
         "close": "Close",
         "create": "Create",
         "ilya": "Ilya",
         "send": "Send",
-        "sent": "Sent",
-        "back": "Back"
+        "sent": "Sent"
     },
     "page": {
         "dev": {
@@ -107,19 +107,29 @@
             "contact": "You can contact with me using: ",
             "contact2": "Also with telegram bot: ",
             "dashboards": "Stats dashboards",
-            "experience": "I specialize in creating Telegram bots and back-end solutions for various projects. Over the years I have managed to cooperate with the Moscow Center for the Development of Professional Education, College of Communications №54, StoryTelling team, AltaSoft and dozens of individual customers. I'm always open to new ideas and ready to help bring your project to life!",
+            "description": "RedGuy.ru is a site of an ordinary programmer, where you can learn about me, my projects, as well as use my facilities",
+            "experience": "I specialize in creating Telegram bots and back-end solutions for various projects. Over the years I have managed to cooperate with the Moscow Center for the Development of Professional Education, College of Communications №54, StoryTelling team and dozens of individual customers. I'm always open to new ideas and ready to help bring your project to life!",
             "guard": "Imperium Guard",
             "intro": "Java && Node.js Backend Developer",
-            "voice": "Underground transcriber",
-            "description": "RedGuy.ru is a site of an ordinary programmer, where you can learn about me, my projects, as well as use my facilities"
+            "voice": "Underground transcriber"
         },
         "login": {
+            "description": "Auth of redguy.ru",
             "emailNotConfirmed": "Your email is not confirmed",
             "error": "Login or password is incorrect",
             "tfa": "2FA code",
             "title": "Log in at RedGuy.ru",
-            "viaVK": "Login via VK",
-            "description": "Auth of redguy.ru"
+            "viaVK": "Login via VK"
+        },
+        "logs": {
+            "createService": "Create a service",
+            "level": "Level",
+            "loadMore": "Load more",
+            "message": "Message",
+            "payload": "Payload",
+            "service": "Service",
+            "serviceName": "Service name",
+            "time": "Time"
         },
         "oauth": {
             "authorize": {
@@ -135,6 +145,11 @@
             }
         },
         "projects": {
+            "newskingdom": {
+                "desc": "Telegram bot that collects news from different sources, categorizes and sends to chat.{br} Receiving a new post from the channel, checks it for uniqueness, determines one of the categories: Russia, IT, Russia and the World, Film and Animation, Moscow, Animal World, Positive, Education, Economy, St. Petersburg, then sends this post to the top of this category.",
+                "link": "Open chat",
+                "slogan": "Time to read all news without leaving a chat."
+            },
             "rdnevnik": {
                 "api": "API server",
                 "api-lib": "API library",
@@ -156,22 +171,18 @@
                 "link": "link (click)",
                 "slogan": "Everything can be accessed via a browser.",
                 "swagger": "Swagger documentation"
-            },
-            "newskingdom": {
-                "link": "Open chat",
-                "slogan": "Time to read all news without leaving a chat.",
-                "desc": "Telegram bot that collects news from different sources, categorizes and sends to chat.{br} Receiving a new post from the channel, checks it for uniqueness, determines one of the categories: Russia, IT, Russia and the World, Film and Animation, Moscow, Animal World, Positive, Education, Economy, St. Petersburg, then sends this post to the top of this category."
             }
         },
         "quotes": {
             "add": {
-                "addQuote": "Add quote: {quote_author}",
                 "addAuthor": "Add author",
+                "addQuote": "Add quote: {quote_author}",
                 "addSource": "Add source: {quote_author}",
                 "quoteSearch": "Quote search"
             }
         },
         "register": {
+            "description": "Register on redguy.ru",
             "email": "Email",
             "emailError": "Email is not valid",
             "emailExists": "Email already exists",
@@ -186,13 +197,21 @@
             "passwordAgainError": "Passwords do not match",
             "passwordError": "Password must be at least 8 characters long and contain at least one number and one letter of both cases",
             "register": "Register",
-            "title": "Register at RedGuy.ru",
-            "description": "Register on redguy.ru"
+            "title": "Register at RedGuy.ru"
         },
         "repos": {
             "descriptions": {
                 "LanguageUtils": "Fork of LanguageUtils plugin with some fixes"
             }
+        },
+        "reset": {
+            "enter": "Enter a new password",
+            "not-match": "The passwords don't match",
+            "too-easy": "The password is too easy"
+        },
+        "restore": {
+            "enter": "Enter email, which you use for register",
+            "sent": "If this email exists in our system, we have sent an email with a password recovery link."
         },
         "settings": {
             "cancel": "Cancel",
@@ -200,6 +219,7 @@
             "changePassword2": "Change password",
             "code": "Code from the app",
             "currentPassword": "Current password",
+            "description": "Account settings",
             "error": "Something went wrong",
             "incorrectCode": "Incorrect 2FA code",
             "incorrectPassword": "Incorrect password",
@@ -212,7 +232,6 @@
             "safety": "Safety",
             "setTOTP": "Enable two-factor authentication",
             "setTOTP2": "Confirm",
-            "description": "Account settings",
             "title": "Settings"
         },
         "socials": {
@@ -221,6 +240,10 @@
                 "title": "Boosty"
             },
             "description": "My blogs and channels on different platforms",
+            "discord": {
+                "description": "My Discord server, where I chat a lot",
+                "title": "SleepLessCode discord"
+            },
             "my": "My blogs and channels",
             "patreon": {
                 "description": "My page on Patreon, where I publish additional materials and you can support me!",
@@ -246,14 +269,10 @@
                 "description": "My channel in Telegram, where I publish stickers created by me",
                 "title": "Sleepless stickers"
             },
+            "title": "RedGuy - Blogs and channels",
             "youtube": {
                 "description": "My YouTube channel, where I publish videos about my things (in Russian)",
                 "title": "RedGuy"
-            },
-            "title": "RedGuy - Blogs and channels",
-            "discord": {
-                "title": "SleepLessCode discord",
-                "description": "My Discord server, where I chat a lot"
             }
         },
         "status": {
@@ -278,25 +297,6 @@
             "main": "main page",
             "ok": "Done! You can go to the",
             "wait": "Please, wait"
-        },
-        "logs": {
-            "createService": "Create a service",
-            "level": "Level",
-            "loadMore": "Load more",
-            "message": "Message",
-            "payload": "Payload",
-            "service": "Service",
-            "serviceName": "Service name",
-            "time": "Time"
-        },
-        "reset": {
-            "enter": "Enter a new password",
-            "not-match": "The passwords don't match",
-            "too-easy": "The password is too easy"
-        },
-        "restore": {
-            "enter": "Enter email, which you use for register",
-            "sent": "If this email exists in our system, we have sent an email with a password recovery link."
         }
     },
     "permissions": {
