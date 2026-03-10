@@ -1,51 +1,5 @@
 {
     "components": {
-        "about": {
-            "contact": "Contact me at",
-            "description": "Description",
-            "engageProjects": "Participating in the development",
-            "forToday": "For today",
-            "forWeek": "For week",
-            "helloWorld": "Hello, World!",
-            "j-position": {
-                "flame": "Programmer, co-author",
-                "hil": "Manager, Tech. admin",
-                "programmer": "Programmer"
-            },
-            "l-desc": {
-                "animatext": "Test library for creating and playing ascii animations",
-                "hilsuapi": "A wrapper that allows you to use most API methods from hil.su",
-                "java-redguy-api": "Wrapper for interacting with the API redguy.ru",
-                "jrweb": "Java web server without dependencies",
-                "kuma": "Wrapper for interacting with uptimekuma",
-                "node-redguy-api": "Wrapper for interacting with the API redguy.ru",
-                "rgcache": "Caching library",
-                "yclogs": "An appender for log4js that allows you to record logs in yandex logging"
-            },
-            "lang": "Language",
-            "myLibs": "My libraries",
-            "name": "Name",
-            "p-desc": {
-                "guard": "Bot moderator for telegram chats",
-                "mcrpo": "Telegram bot for festival \"ProProfessionals and ProPossibilities\"",
-                "newskingdom": "Telegram bot who collects news from different sources and classify them by category",
-                "pwvoice": "Telegram bot for voice messages transcription",
-                "rdnevnik": "TG and VK interface for school.mos.ru",
-                "votty": "Voting bot for your discord server",
-                "webinfo": "HTTP API for your Minecraft server"
-            },
-            "position": "Position",
-            "projects": "Projects",
-            "since": {
-                "detail": "{todayH} hours {todayM} minutes I spent developing today and {weekH} hours {weekM} over the last 7 days.",
-                "total": "Since April 12 2021 I have been coding for {hours} hours."
-            },
-            "story": "My name is {name}, I have been interested and growing in the IT sphere for many years. {br} Now I mainly work on {java} and {javascript}. {br} Just below you can find a list of some of my developments, and if you click {hub}, you can try it yourself.",
-            "tech": "Technologies",
-            "today": "today",
-            "type": "Type",
-            "workDates": "Dates of work"
-        },
         "appcard": {
             "go": "Go"
         },
@@ -53,21 +7,6 @@
             "login": "Login",
             "logout": "Logout",
             "main": "Home"
-        },
-        "project": {
-            "active": "Active",
-            "end": "Finished",
-            "frozen": "Frozen",
-            "title": "Projects -> {name}"
-        },
-        "stats": {
-            "total": "Total time coded since Apr 12 2021"
-        },
-        "tech": {
-            "useAndLearn": "Using and learning"
-        },
-        "tools": {
-            "loveAndUse": "I love and use"
         }
     },
     "general": {
@@ -75,9 +14,7 @@
         "cancel": "Cancel",
         "close": "Close",
         "create": "Create",
-        "ilya": "Ilya",
-        "send": "Send",
-        "sent": "Sent"
+        "send": "Send"
     },
     "page": {
         "dev": {
@@ -107,10 +44,8 @@
             "contact": "You can contact with me using: ",
             "contact2": "Also with telegram bot: ",
             "dashboards": "Stats dashboards",
-            "description": "RedGuy.ru is a site of an ordinary programmer, where you can learn about me, my projects, as well as use my facilities",
             "experience": "I specialize in creating Telegram bots and back-end solutions for various projects. Over the years I have managed to cooperate with the Moscow Center for the Development of Professional Education, College of Communications №54, StoryTelling team and dozens of individual customers. I'm always open to new ideas and ready to help bring your project to life!",
             "guard": "Imperium Guard",
-            "intro": "Java && Node.js Backend Developer",
             "voice": "Underground transcriber"
         },
         "login": {
@@ -118,8 +53,7 @@
             "emailNotConfirmed": "Your email is not confirmed",
             "error": "Login or password is incorrect",
             "tfa": "2FA code",
-            "title": "Log in at RedGuy.ru",
-            "viaVK": "Login via VK"
+            "title": "Log in at RedGuy.ru"
         },
         "logs": {
             "createService": "Create a service",
@@ -144,43 +78,6 @@
                 "willAllow": "It will allow app to:"
             }
         },
-        "projects": {
-            "newskingdom": {
-                "desc": "Telegram bot that collects news from different sources, categorizes and sends to chat.{br} Receiving a new post from the channel, checks it for uniqueness, determines one of the categories: Russia, IT, Russia and the World, Film and Animation, Moscow, Animal World, Positive, Education, Economy, St. Petersburg, then sends this post to the top of this category.",
-                "link": "Open chat",
-                "slogan": "Time to read all news without leaving a chat."
-            },
-            "rdnevnik": {
-                "api": "API server",
-                "api-lib": "API library",
-                "desc": "Telegram and VKontakte interface for accessing a student's electronic diary {link}.{br} Uses natural language processing technology to understand any user's wording.",
-                "nlp": "NLP model",
-                "slogan": "Let's make studying easier on our own.",
-                "tg": "Telegram bot",
-                "tg-open": "Bot in Telegram",
-                "vk": "VKontakte bot",
-                "vk-open": "Bot in VKontakte"
-            },
-            "votty": {
-                "desc": "A specialized bot for voting on your Discord server!",
-                "invite": "Invite",
-                "slogan": "Let's make voting easier."
-            },
-            "webinfo": {
-                "desc": "HTTP API-interface for your Minecraft Spigot or Sponge server.",
-                "link": "link (click)",
-                "slogan": "Everything can be accessed via a browser.",
-                "swagger": "Swagger documentation"
-            }
-        },
-        "quotes": {
-            "add": {
-                "addAuthor": "Add author",
-                "addQuote": "Add quote: {quote_author}",
-                "addSource": "Add source: {quote_author}",
-                "quoteSearch": "Quote search"
-            }
-        },
         "register": {
             "description": "Register on redguy.ru",
             "email": "Email",
@@ -198,11 +95,6 @@
             "passwordError": "Password must be at least 8 characters long and contain at least one number and one letter of both cases",
             "register": "Register",
             "title": "Register at RedGuy.ru"
-        },
-        "repos": {
-            "descriptions": {
-                "LanguageUtils": "Fork of LanguageUtils plugin with some fixes"
-            }
         },
         "reset": {
             "enter": "Enter a new password",
@@ -245,14 +137,6 @@
                 "title": "SleepLessCode discord"
             },
             "my": "My blogs and channels",
-            "patreon": {
-                "description": "My page on Patreon, where I publish additional materials and you can support me!",
-                "title": "Patreon"
-            },
-            "redguyru": {
-                "description": "Official channel of redguy.org in Telegram, where I publish news about the projects (in Russian)",
-                "title": "RedGuy: operationally"
-            },
             "sleeplesschat": {
                 "description": "My chat in Telegram, where I chat with my subscribers (mostly in Russian)",
                 "title": "Sleeping juniors"
@@ -275,24 +159,7 @@
                 "title": "RedGuy"
             }
         },
-        "status": {
-            "cpu": "CPU: {cpu}% of {cpus}",
-            "disk": "Disk: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
-            "diskStats": "Read: {toFixed}GB Write: {toFixed_2}GB",
-            "memory": "RAM: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)",
-            "networkStats": "Incoming: {toFixed}Gb Outcoming: {toFixed_2}Gb",
-            "swap": "SWAP: {toFixed}GB of {toFixed_2}GB ({toFixed_3}%)"
-        },
-        "story": {
-            "description": "Selecting script for reading",
-            "show": {
-                "description": "Reading text versions of scripts of movies and games on RedGuy.ru",
-                "title": "Story"
-            },
-            "title": "Script selecting"
-        },
         "verify": {
-            "emailNotConfirmed": "Your email is not confirmed",
             "error": "Something went wrong",
             "main": "main page",
             "ok": "Done! You can go to the",
