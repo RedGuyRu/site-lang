@@ -36,8 +36,8 @@
             "tokenName": "Token name"
         },
         "hub": {
-            "description": "List of redguy.ru services for you!",
-            "title": "RedGuy.ru - Hub"
+            "description": "List of my services.",
+            "title": "Sleepless - Hub"
         },
         "index": {
             "about": "Welcome! My name is Ilya, I'm a Java and Node.js developer with more than 6 years of experience.",
